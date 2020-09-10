@@ -1,0 +1,13 @@
+<form [formGroup]="analysisForm" (ngSubmit)="onSubmit()">
+    <label>
+        Release rate
+        <input type="text" formControlName="releaseRate">
+    </label>
+
+    <label>
+        Number of flux capacitators
+        <input type="text" formControlName="numFluxCap">
+    </label>
+
+    <button type="submit">Submit</button>
+</form>
